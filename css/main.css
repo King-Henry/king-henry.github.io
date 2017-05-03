@@ -17,5 +17,8 @@
 	margin-left: 16px;
     margin-top: 35px;
     margin-right: 10px;
+}
 
+.grey-subheader {
+	color: rgb(169,169,169);
 }
