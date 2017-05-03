@@ -1,0 +1,21 @@
+.home-page-container {
+	display: flex;
+	justify-content: center;
+}
+
+.left-card-margin {
+	margin-left: 2%;
+}
+
+.cards-container {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-picture {
+	margin-left: 16px;
+    margin-top: 35px;
+    margin-right: 10px;
+
+}
