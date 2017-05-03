@@ -10,7 +10,7 @@
 .cards-container {
 	display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .card-picture {
@@ -21,4 +21,10 @@
 
 .grey-subheader {
 	color: rgb(169,169,169);
+}
+
+.card-picture-one-line {
+	margin-left: 16px;
+    margin-top: 25px;
+    margin-right: 10px;
 }
