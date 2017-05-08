@@ -13,6 +13,12 @@
     justify-content: center;
 }
 
+.cards-container-row {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 .card-picture {
 	margin-left: 16px;
     margin-top: 35px;
@@ -27,4 +33,15 @@
 	margin-left: 16px;
     margin-top: 25px;
     margin-right: 10px;
+}
+
+.skill-image {
+	width: 250px;
+	height: 250px;
+}
+
+.skill-card {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 350px;
 }
