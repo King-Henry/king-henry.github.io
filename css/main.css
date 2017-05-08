@@ -45,3 +45,8 @@
 	margin-right: 10px;
 	height: 350px;
 }
+
+.about-me-card {
+	display: flex;
+	flex-wrap: wrap;
+}
