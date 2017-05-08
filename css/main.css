@@ -8,6 +8,10 @@
 	margin-left: 2%;
 }
 
+.flex-wrap-auto {
+	flex: 1;
+}
+
 .cards-container {
 	display: flex;
     flex-direction: column;
