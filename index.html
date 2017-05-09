@@ -20,15 +20,16 @@
 	    </div>
 	    <div class="nav-content">
 	      <ul class="tabs tabs-transparent">
-	        <li class="tab"><a href="index.html">About Me</a></li>
-	        <li class="tab"><a href="#projects">My Projects</a></li>
-	        <li class="tab"><a href="#skills">Skills</a></li>
+	        <li id="aboutmetab" class="tab"><a href="index.html">About Me</a></li>
+	        <li id="projectstab" class="tab"><a href="#projects">My Projects</a></li>
+	        <li id="skillstab" class="tab"><a href="#skills">Skills</a></li>
 	      </ul>
 	    </div>
 	  </nav>
 	  <!-- Toolbar end -->
 	  
-	  <div class="card-panel grey lighten-4 home-page-container ">
+	  <!-- About Me -->
+	  <div id = "aboutmesection" class="card-panel grey lighten-4 home-page-container ">
 	  <div class="about-me-card">
 	  <img src="images/aboutmepic.jpg" style="width:486px;height:648px;display: inline;flex: auto"> 
 
@@ -78,14 +79,248 @@
 	        </div>
 	      </div>
 	    </div>
-
-
 	   </div>
 	</div>
-
 	</div>
+	<!-- About Me end -->
 
+	<!-- Projects Section Start -->
 
+	<div id="projectssection" class="cards-container-row" style="display: none;">
+	  <div>
+        <div class="col s12 m7" style="width: inherit;">
+          <div class="card project-card">
+            <div class="card-image">
+              <img src="images/comicbooker.png" style="width: 360px;height: 640px">
+            </div>
+            <div class="card-content">
+            <span class="card-title">The Comicbooker</span>
+               <p>An application that allows you to keep track<br> of your Marvel Comics and see the current <br> value of them.</p>
+               <p style="color: rgb(255,0,0);"> (In Progress)</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/King-Henry/TheComicBooker">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col s12 m7" style="width: inherit;">
+          <div class="card project-card">
+            <div class="card-image">
+              <img src="images/hackstetson.png" style="width: 360px;height: 640px">
+            </div>
+            <div class="card-content">
+            <span class="card-title">sudo HackStetson App</span>
+               <p>An application with a Tinder Style card User <br> Interface that allows you to find a <br>restaurant near you, without a hassle.</p>
+               <p style="color: rgb(255,0,0);"> (In Progress)</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/King-Henry/TheComicBooker">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col s12 m7" style="width: inherit;">
+          <div class="card project-card">
+            <div class="card-image">
+              <img src="images/flightclub.png" style="width: 360px;height: 640px">
+            </div>
+            <div class="card-content">
+            <span class="card-title">Flight Club</span>
+               <p>An Android app that simulates the purchasing <br> of airplane tickets, booking hotel rooms, and <br> renting cars.</p>
+               <p class="grey-text"> Group Project</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/King-Henry/FlightClub_COP4331C">GitHub</a>
+            </div>
+            <div class="card-action">
+              <a href="https://youtu.be/6SVYcbGkYSor">Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col s12 m7" style="width: inherit;">
+          <div class="card project-card">
+            <div class="card-image">
+              <img src="images/emoji.svg" style="width: 360px;height: 640px">
+            </div>
+            <div class="card-content">
+            <span class="card-title">E-moji-Mail</span>
+               <p>A Google Chrome extension that analyzes <br>emails and returns an emoji based on the mood <br> of the email.</p>
+               <p class="grey-text">sudo HackStetson 2017</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/cancanf3/E-moji-Mail">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col s12 m7" style="width: inherit;">
+          <div class="card project-card">
+            <div class="card-image">
+              <img src="images/websitelogo.png">
+            </div>
+            <div class="card-content">
+            <span class="card-title">College Event Finder</span>
+               <p>A website that allows students to create,<br> organize, and manage college events on or <br> around campus.</p>
+               <p class="grey-text">Database class group project</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/DavidIsrawi/CollegeEventsDBSystems">GitHub</a>
+            </div>
+            <div class="card-action">
+              <a href="http://teamflightclubproject.com/">Website</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Projects section end -->
+
+     <!--  Skills section start -->
+     <div id="skillssection" class="cards-container-row" style="display: none;">
+		<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/android.jpg">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">Android
+	      		Dev<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Android Dev<i class="material-icons right">close</i></span>
+	      		<p>This is definitely what I feel the most comfortable with, as I have the most experience with it.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/java.png">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">Java<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Java<i class="material-icons right">close</i></span>
+	      		<p>This goes hand in hand with Android as my most confident skill. Mostly because Android uses Java.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/c.png">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">C Development<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">C<i class="material-icons right">close</i></span>
+	      		<p>First language learned in my classes, used occasionally today.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/python.png">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">Python<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Python<i class="material-icons right">close</i></span>
+	      		<p>Have a bit of experience with Python through Hackathons and Group Projects.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/html-logo.png">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">HTML<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">HTML<i class="material-icons right">close</i></span>
+	      		<p>Experience with HTML through making this website, Hackathons, and Group Projects.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/javascript.png">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">JavaScript<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">JavaScript<i class="material-icons right">close</i></span>
+	      		<p>Gained knowledge of JavaScript through making this website, Hackathons, and Group Projects. This includes JQuery and NodeJS.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/haskell.png" style= "padding-top: 20px">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">Haskell<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Haskell<i class="material-icons right">close</i></span>
+	      		<p>Worked with Haskell in a Programming Languages course.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/erlang.png" style= "padding-top: 20px">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">Erlang<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Erlang<i class="material-icons right">close</i></span>
+	      		<p>Worked with Erlang in a Programming Languages course.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/github.png" style= "padding-top: 20px">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">GitHub<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Github<i class="material-icons right">close</i></span>
+	      		<p>GitHub is used everywhere, whether it be on my own personal projects or at my internship.</p>
+	    	</div>
+	  	</div>
+
+	  	<div class="card skill-card">
+	    	<div class="card-image waves-effect waves-block waves-light skill-image">
+	      		<img class="activator" src="images/jira.png" style= "padding-top: 20px">
+	    	</div>
+	   		<div class="card-content">
+	      		<span class="card-title activator grey-text text-darken-4">Jira<i class="material-icons right">more_vert</i></span>
+	    	</div>
+	    	<div class="card-reveal">
+	      		<span class="card-title grey-text text-darken-4">Jira<i class="material-icons right">close</i></span>
+	      		<p>Used at my internship for tracking of bugs, keeping track of sprints, etc.</p>
+	    	</div>
+	  	</div>
+	  </div>
+
+	  <!-- Skills Section End -->
 
 	<footer class="page-footer">
           <div class="container">
@@ -116,7 +351,29 @@
 		<!--Import jQuery before materialize.js-->
 	     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	     <script type="text/javascript" src="js/materialize.min.js"></script>
+	     <script>
+	     	$(document).ready(function(){
+	     		$("#projectstab").click(function() {
+	     			$("#aboutmesection").hide();
+	     			$("#skillssection").hide();
+	     			$("#projectssection").show();
+	     		});
 
+	     		$("#aboutmetab").click(function() {
+	     			$("#skillssection").hide();
+	     			$("#projectssection").hide();
+	     			$("#aboutmesection").show();
+	     		});
+
+	     		$("#skillstab").click(function() {
+	     			$("#aboutmesection").hide();
+	     			$("#projectssection").hide();
+	     			$("#skillssection").show();
+	     		});
+
+	     		$("#cards-container").delay(1000).animate({ opacity: 1 }, 700)
+	     	});
+	     </script>
 	     </script>
 	</body>
 </html>
